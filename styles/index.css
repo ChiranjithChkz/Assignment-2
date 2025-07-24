@@ -64,8 +64,42 @@ nav {
 /* plans section */
 .plans {
   text-align: center;
-  margin-top: 120px;
+  margin: 120px 0 49px 0;
 }
 .plans h2 {
   margin-bottom: 16px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 1140px;
+  margin: 0 auto;
+  gap: 20px;
+  row-gap: 30px;
+}
+.card-details {
+  width: 100%;
+  text-align: center;
+}
+.card-box img {
+  width: 100%;
+}
+.card-box p {
+  font-size: 22px;
+  font-weight: 500;
+}
+.card-box b {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+}
+.card-box button {
+  background-color: #e95a08;
+  height: 50px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: aliceblue;
 }
