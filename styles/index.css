@@ -120,6 +120,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 90px;
+  position: relative;
 }
 .flower-lovers-details h2 {
   width: 350px;
@@ -127,6 +128,19 @@ nav {
 }
 .flower-lovers-details li {
   margin-bottom: 30px;
+}
+/* .truth-badge {
+  bottom: 30px;
+  box-sizing: border-box;
+  position: absolute; */
+
+.truth-badge img {
+  box-sizing: border-box;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: -200px;
+  left: 400px;
 }
 
 /* latest deals */
