@@ -21,8 +21,7 @@
 }
 
 /* nav links */
-.navbar {
-}
+
 nav {
   width: 1140px;
   margin: 30px auto 226px auto;
@@ -283,8 +282,6 @@ nav {
     align-items: center;
   }
 
-  .cart-bar {
-  }
   nav img {
     height: 38px;
   }
@@ -302,8 +299,7 @@ nav {
     width: 100%;
     flex-direction: column-reverse;
   }
-  .banner-right {
-  }
+
   .banner-right img {
     width: 110%;
   }
@@ -348,6 +344,9 @@ nav {
   .flower-lovers img {
     width: 100%;
     margin-left: 30px;
+  }
+  .truth-badge img {
+    display: none;
   }
   .flower-lovers-details ul li {
     font-size: 14px;
