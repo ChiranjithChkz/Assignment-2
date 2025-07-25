@@ -30,6 +30,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.navbar-list {
+  display: flex;
+  gap: 25px;
+}
 .navbar-list ul {
   display: flex;
   gap: 48px;
@@ -47,6 +51,10 @@ nav {
 #shop,
 #about-link {
   color: #8987a1;
+}
+.cart-bar a {
+  text-decoration: none;
+  color: black;
 }
 
 /* banner-section */
@@ -102,4 +110,106 @@ nav {
   font-weight: bold;
   font-family: "Inter", sans-serif;
   color: aliceblue;
+}
+
+/* flower lovers section */
+.flower-lovers {
+  width: 1140px;
+  margin: 230px auto 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.flower-lovers-details h2 {
+  width: 350px;
+  margin-bottom: 50px;
+}
+.flower-lovers-details li {
+  margin-bottom: 30px;
+}
+
+/* Responsive  */
+@media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    justify-content: flex-start;
+    margin: 30px auto 50px 40px;
+    align-items: center;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .navbar-list {
+    gap: 0;
+    margin-top: 20px;
+  }
+  .navbar-list li a {
+    display: none;
+  }
+  .banner-section {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .banner-right {
+  }
+  .banner-right img {
+    width: 450px;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  .banner-left {
+    padding-left: 20px;
+    margin: 0 0 0 0;
+  }
+  .banner-left p {
+    font-size: 14px;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .flower-lovers {
+    width: 100%;
+    flex-direction: column;
+  }
+  .plans {
+    padding-left: 25px;
+  }
+  .plans p {
+    font-size: 14px;
+  }
+  .card-box img {
+    width: 100%;
+  }
+  .cards {
+    margin: 0 auto;
+    padding-left: 35px;
+  }
+  .flower-lovers {
+    margin-top: 40px;
+    gap: 30px;
+  }
+  .flower-lovers img {
+    width: 400px;
+    margin-left: 30px;
+  }
+  .flower-lovers h2 {
+    font-size: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .flower-lovers ul {
+    font: 14px;
+    padding-left: 40px;
+  }
 }
