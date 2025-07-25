@@ -129,6 +129,70 @@ nav {
   margin-bottom: 30px;
 }
 
+/* footer section */
+.footer-img {
+  width: 100%;
+  height: 533px;
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 50px;
+}
+.footer-img h2 {
+  color: white;
+}
+.footer-img input {
+  width: 664px;
+  height: 50px;
+  border: none;
+  padding-left: 20px;
+  margin-bottom: 23px;
+}
+.footer-img button {
+  width: 186px;
+  height: 50px;
+  border: none;
+  background-color: #e95a08;
+  color: white;
+  margin-left: -5px;
+}
+
+/* second footer */
+.second-footer {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.column-1 p {
+  width: 360px;
+  margin-top: 16px;
+}
+
+.column-2 ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.column-2 ul li {
+  list-style: none;
+  line-height: 60px;
+}
+.column-3 ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.column-3 ul li {
+  list-style: none;
+  line-height: 60px;
+}
+.icon-row img {
+  margin-right: 24px;
+}
+
 /* Responsive  */
 @media screen and (max-width: 576px) {
   body {
@@ -141,7 +205,7 @@ nav {
   nav {
     width: 100%;
     display: flex;
-    gap: 80px;
+    gap: 50px;
     justify-content: flex-start;
     margin: 30px auto 50px 40px;
     align-items: center;
@@ -163,13 +227,14 @@ nav {
   .banner-right {
   }
   .banner-right img {
-    width: 450px;
-    margin: 0 auto;
-    padding: 25px;
+    width: 110%;
   }
   .banner-left {
     padding-left: 20px;
     margin: 0 0 0 0;
+  }
+  .banner-left h2 {
+    font-size: 40px;
   }
   .banner-left p {
     font-size: 14px;
@@ -187,6 +252,8 @@ nav {
   }
   .plans p {
     font-size: 14px;
+    width: 350px;
+    padding-left: 30px;
   }
   .card-box img {
     width: 100%;
@@ -200,8 +267,12 @@ nav {
     gap: 30px;
   }
   .flower-lovers img {
-    width: 400px;
+    width: 100%;
     margin-left: 30px;
+  }
+  .flower-lovers-details ul li {
+    font-size: 14px;
+    width: 360px;
   }
   .flower-lovers h2 {
     font-size: 30px;
@@ -211,5 +282,23 @@ nav {
   .flower-lovers ul {
     font: 14px;
     padding-left: 40px;
+  }
+  .second-footer {
+    width: 100%;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .footer-img {
+    width: 110%;
+  }
+  .footer-img h2 {
+    font-size: 30px;
+  }
+  .footer-img input {
+    width: 300px;
+    margin-top: 30px;
+  }
+  .footer-img button {
+    width: 80px;
   }
 }
